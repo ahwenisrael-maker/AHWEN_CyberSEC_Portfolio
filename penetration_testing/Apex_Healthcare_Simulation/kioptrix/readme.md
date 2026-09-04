@@ -62,7 +62,7 @@ An attacker could potentially:
 
 **High**
 
-The vulnerability presents significant risk because successful exploitation could result in unauthorised remote access and command execution.
+The vulnerability poses a significant risk because successful exploitation could result in unauthorised remote access and command execution.
 
 ---
 

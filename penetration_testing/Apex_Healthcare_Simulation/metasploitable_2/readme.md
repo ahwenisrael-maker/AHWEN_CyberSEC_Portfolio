@@ -75,7 +75,7 @@ The use of plaintext authentication creates a significant risk of credential int
 * FTP
 * Samba
 * MySQL
-* Apache
+* Apache Server
 
 ### Description
 

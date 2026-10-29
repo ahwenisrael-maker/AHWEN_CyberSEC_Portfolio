@@ -21,6 +21,18 @@ I set up a Kali Linux virtual machine using Oracle VirtualBox as part of my cybe
 
 ## Purpose
 Establishing a dedicated environment for practising penetration testing and developing practical cybersecurity skills in a controlled laboratory.
+## Problems Encountered
+- IP Address 10.0.0.2 was not registering on the VM due to conflict with DHCP server
+## Investigative steps taken in order.
+- Confirmed I used the right subnet in the VirtualBox Network settings.
+- Once sure I was correct, I arpinged the IP with `sudo arping -I eth0 -c 3 10.0.0.2` and discovered it was in use because it returned responses from a mac address `08:00:27:6e:5e:b4`
+- Checked the mac address of my network adapter and confirmed it wasn't from it, and then I found that it had a similar prefix to mine and on further investigation, I learnt that the prefix is common to virtualbox network adapters.
+- I checked my list of dhcp servers using `& "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" list dhcpservers` in my Windows(my host) Powershell
+- Discovered that my network was using `10.0.0.2` as DHCP server.
+## Solution to the problem
+- Changing the DHCPd IP to 10.0.0.254 using `& "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" dhcpserver modify --network="My NAT Network" --server-ip=10.0.0.254 --lower-ip=10.0.0.3 --upper-ip=10.0.0.253 --netmask=255.255.255.0 --enable` in Windows Powershell.
+- Reassigning the IP to Kali.
+
 ## Screenshots
 ### NAT Network Configuration in VirtualBox
 ![VirtualBox NAT network settings](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/d8489bb0a472d632db8ac563c03b1af9e1d97b41/Virtualisation/kali/images/Screenshot%20(315).png)
@@ -32,9 +44,9 @@ Establishing a dedicated environment for practising penetration testing and deve
 ![Kali Linux running in VirtualBox](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/c612faf704de2c686007003587680d3b34869a00/Virtualisation/kali/images/Screenshot%20(309).png)
 
 ### IP Address Configuration in Kali
-![Kali Linux IP configuration]()
+![Kali Linux IP configuration](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/82fe45b152192ee2aa340accf367855afdb2cfaa/Virtualisation/kali/images/Screenshot_2026-10-29_16_56_15.png)
 
-![Kali Linux IP configuration]()
+![Kali Linux IP configuration](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/82fe45b152192ee2aa340accf367855afdb2cfaa/Virtualisation/kali/images/Screenshot_2026-10-29_16_38_44.png)
 
 
 ### IP address confirmation & Internet connectivity Test on the VM
@@ -42,14 +54,6 @@ Establishing a dedicated environment for practising penetration testing and deve
 
 ### Taking the Virtual Machine Snapshot
 ![Kali Linux virtual machine snapshot](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/d8489bb0a472d632db8ac563c03b1af9e1d97b41/Virtualisation/kali/images/Screenshot%20(316).png)
-### Problems Encountered
-- IP Address 10.0.0.2 was not registering on the VM
-### Investigative steps taken
-- Confirmed I used the right subnet in the VirtualBox Network settings.
-- Once sure I was correct, I arpinged the IP with `sudo arping -I eth0 -c 3 10.0.0.2` and discovered it was in use because it returned responses from a mac address `08:00:27:6e:5e:b4`
-- Checked the mac address of my network adapter and confirmed it wasn't from it, and then I found that it had a similar prefix to mine and on further investigation, I learnt that the prefix is common to virtualbox network adapters.
-- I checked my list of dhcp servers using `& "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" list dhcpservers` in my Windows(my host) Powershell
-- Discovered that my network was using `10.0.0.2` as DHCP server.
-### Solution to the problem
-- Changing the DHCPd IP to 10.0.0.254 using `& "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" dhcpserver modify --network="My NAT Network" --server-ip=10.0.0.254 --lower-ip=10.0.0.3 --upper-ip=10.0.0.253 --netmask=255.255.255.0 --enable` in Windows Powershell.
-- Reassigning the IP to Kali.
+### Diagnosis of the IP address issue
+![Kali Linux virtual machine snapshot]()
+

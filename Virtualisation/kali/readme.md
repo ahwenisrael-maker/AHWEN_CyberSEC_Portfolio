@@ -55,5 +55,5 @@ Establishing a dedicated environment for practising penetration testing and deve
 ### Taking the Virtual Machine Snapshot
 ![Kali Linux virtual machine snapshot](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/d8489bb0a472d632db8ac563c03b1af9e1d97b41/Virtualisation/kali/images/Screenshot%20(316).png)
 ### Diagnosis of the IP address issue
-![Powershell screenshot]()
+![Powershell screenshot](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/04b6b3071a7c638de7cbbfdd232f3efbe2bd9f7e/Virtualisation/kali/images/Screenshot%20(325).png)
 

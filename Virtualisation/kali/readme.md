@@ -44,16 +44,16 @@ Establishing a dedicated environment for practising penetration testing and deve
 ![Kali Linux running in VirtualBox](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/c612faf704de2c686007003587680d3b34869a00/Virtualisation/kali/images/Screenshot%20(309).png)
 
 ### IP Address Configuration in Kali
-![Kali Linux IP configuration](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/82fe45b152192ee2aa340accf367855afdb2cfaa/Virtualisation/kali/images/Screenshot_2026-10-29_16_56_15.png)
+
 
 ![Kali Linux IP configuration](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/82fe45b152192ee2aa340accf367855afdb2cfaa/Virtualisation/kali/images/Screenshot_2026-10-29_16_38_44.png)
 
 
 ### IP address confirmation & Internet connectivity Test on the VM
 ![Kali Linux network Test](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/0fb54a1a42e9f120dfa46b5e03e258aa810dbb5f/Virtualisation/kali/images/Screenshot%20(320).png)
-
+![Kali Linux IP confirmation in CLI](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/82fe45b152192ee2aa340accf367855afdb2cfaa/Virtualisation/kali/images/Screenshot_2026-10-29_16_56_15.png)
 ### Taking the Virtual Machine Snapshot
 ![Kali Linux virtual machine snapshot](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/d8489bb0a472d632db8ac563c03b1af9e1d97b41/Virtualisation/kali/images/Screenshot%20(316).png)
 ### Diagnosis of the IP address issue
-![Kali Linux virtual machine snapshot]()
+![Powershell screenshot]()
 

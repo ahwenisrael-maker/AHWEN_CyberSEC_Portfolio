@@ -23,13 +23,14 @@ Established a dedicated environment for practising penetration testing and devel
 ## Screenshots
 
 ### Kali Linux Virtual Machine
-![Kali Linux running in VirtualBox](./images/virtualbox-kali.png)
+![Kali Linux running in VirtualBox](./images/Screenshot(309).png)
 
 ### IP Address Configuration
-![Kali Linux IP configuration](./images/kali-ip-config.png)
+![Kali Linux IP configuration](./images/Screenshot(313).png)
+![Kali Linux IP configuration](./images/Screenshot(314).png)
 
 ### NAT Network Configuration
-![VirtualBox NAT network settings](./images/nat-network-config.png)
+![VirtualBox NAT network settings](./images/screenshot(315).png)
 
 ### Virtual Machine Snapshot
 ![Kali Linux virtual machine snapshot](./images/kali-snapshot.png)

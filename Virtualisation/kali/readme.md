@@ -28,7 +28,7 @@ Established a dedicated environment for practising penetration testing and devel
 ### IP Address Configuration
 ![Kali Linux IP configuration](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/9b5c8551279a3b6c5d8e9686d1140c1af665b4ac/Virtualisation/kali/images/Screenshot%20(313).png)
 
-![Kali Linux IP configuration](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/2ea9d46d125298b4d1fc0046f396a4e41becfd91/Virtualisation/kali/images/Screenshot%20(314).png)
+![Kali Linux IP configuration](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/2ea9d46d125298b4d1fc0046f396a4e41becfd91/Virtualisation/kali/images/Screenshot%20(318).png)
 
 ### NAT Network Configuration
 ![VirtualBox NAT network settings](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/d8489bb0a472d632db8ac563c03b1af9e1d97b41/Virtualisation/kali/images/Screenshot%20(315).png)
@@ -36,5 +36,5 @@ Established a dedicated environment for practising penetration testing and devel
 ### Virtual Machine Snapshot
 ![Kali Linux virtual machine snapshot](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/d8489bb0a472d632db8ac563c03b1af9e1d97b41/Virtualisation/kali/images/Screenshot%20(316).png)
 ### Internet connectivity Test on the VM
-![Kali Linux network Test](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/d8489bb0a472d632db8ac563c03b1af9e1d97b41/Virtualisation/kali/images/Screenshot%20(316).png)
+![Kali Linux network Test](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/d8489bb0a472d632db8ac563c03b1af9e1d97b41/Virtualisation/kali/images/Screenshot%20(320).png)
 

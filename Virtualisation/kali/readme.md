@@ -23,14 +23,14 @@ Established a dedicated environment for practising penetration testing and devel
 ## Screenshots
 
 ### Kali Linux Virtual Machine
-![Kali Linux running in VirtualBox](AHWEN_CyberSEC_Portfolio/images/Screenshot(309).png)
+![Kali Linux running in VirtualBox](./images/Screenshot(309).png)
 
 ### IP Address Configuration
-![Kali Linux IP configuration](AHWEN_CyberSEC_Portfolio/images/Screenshot(313).png)
-![Kali Linux IP configuration](AHWEN_CyberSEC_Portfolio/images/Screenshot(314).png)
+![Kali Linux IP configuration](./images/Screenshot(313).png)
+![Kali Linux IP configuration](./images/Screenshot(314).png)
 
 ### NAT Network Configuration
-![VirtualBox NAT network settings](AHWEN_CyberSEC_Portfolio/images/screenshot(315).png)
+![VirtualBox NAT network settings](./images/Screenshot(315).png)
 
 ### Virtual Machine Snapshot
-![Kali Linux virtual machine snapshot](AHWEN_CyberSEC_Portfolio/images/kali-snapshot.png)
+![Kali Linux virtual machine snapshot](./images/Screenshot(316).png)

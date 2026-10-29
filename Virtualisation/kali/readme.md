@@ -23,7 +23,7 @@ I set up a Kali Linux virtual machine using Oracle VirtualBox as part of my cybe
 Establishing a dedicated environment for practising penetration testing and developing practical cybersecurity skills in a controlled laboratory.
 ## Problems Encountered
 - IP Address 10.0.0.2 was not registering on the VM due to conflict with DHCP server
-## Investigative steps taken in order.
+## Investigative steps taken in order of precedence
 - Confirmed I used the right subnet in the VirtualBox Network settings.
 - Once sure I was correct, I arpinged the IP with `sudo arping -I eth0 -c 3 10.0.0.2` and discovered it was in use because it returned responses from a mac address `08:00:27:6e:5e:b4`
 - Checked the mac address of my network adapter and confirmed it wasn't from it, and then I found that it had a similar prefix to mine and on further investigation, I learnt that the prefix is common to virtualbox network adapters.

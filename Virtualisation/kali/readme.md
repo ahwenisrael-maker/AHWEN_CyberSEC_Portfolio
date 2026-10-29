@@ -25,10 +25,13 @@ Establishing a dedicated environment for practising penetration testing and deve
 ### NAT Network Configuration in VirtualBox
 ![VirtualBox NAT network settings](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/d8489bb0a472d632db8ac563c03b1af9e1d97b41/Virtualisation/kali/images/Screenshot%20(315).png)
 
-### Kali Linux Virtual Machine
+### Kali Linux VM Imported to VirtualBox
+![Kali Linux Imported to VirtualBox]()
+
+### Kali Linux Virtual Machine Running in VirtualBox
 ![Kali Linux running in VirtualBox](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/c612faf704de2c686007003587680d3b34869a00/Virtualisation/kali/images/Screenshot%20(309).png)
 
-### IP Address Configuration
+### IP Address Configuration in Kali
 ![Kali Linux IP configuration](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/07324e08ea082d166118eb323ac239316d41e4ee/Virtualisation/kali/images/Screenshot%20(322).png)
 
 ![Kali Linux IP configuration](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/0fb54a1a42e9f120dfa46b5e03e258aa810dbb5f/Virtualisation/kali/images/Screenshot%20(318).png)
@@ -37,5 +40,5 @@ Establishing a dedicated environment for practising penetration testing and deve
 ### Internet connectivity Test on the VM
 ![Kali Linux network Test](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/0fb54a1a42e9f120dfa46b5e03e258aa810dbb5f/Virtualisation/kali/images/Screenshot%20(320).png)
 
-### Virtual Machine Snapshot
+### Taking the Virtual Machine Snapshot
 ![Kali Linux virtual machine snapshot](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/d8489bb0a472d632db8ac563c03b1af9e1d97b41/Virtualisation/kali/images/Screenshot%20(316).png)

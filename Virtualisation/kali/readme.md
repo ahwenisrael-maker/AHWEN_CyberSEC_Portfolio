@@ -6,10 +6,10 @@ I set up a Kali Linux virtual machine using Oracle VirtualBox as part of my cybe
 ## Setup Process
 1. Installed Oracle VirtualBox.
 2. Created a virtual NAT network.
-3. Configured the network using `10.0.0.0` as the IPv4 network address.
+3. Configured the network using `10.0.0.0/24` as the IPv4 prefix.
 4. Imported the Kali Linux virtual machine into VirtualBox.
 5. Started the virtual machine and verified that it booted successfully.
-6. Configured Kali Linux with the IP address `10.0.0.2`.
+6. Configured Kali Linux with the IP address `10.0.0.4`.
 7. Configured the DNS server to use `10.0.0.1`.
 8. Created a virtual machine snapshot to preserve the configured state.
 
@@ -30,7 +30,7 @@ Established a dedicated environment for practising penetration testing and devel
 ![Kali Linux IP configuration](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/2ea9d46d125298b4d1fc0046f396a4e41becfd91/Virtualisation/kali/images/Screenshot%20(314).png)
 
 ### NAT Network Configuration
-![VirtualBox NAT network settings]()
+![VirtualBox NAT network settings](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/d8489bb0a472d632db8ac563c03b1af9e1d97b41/Virtualisation/kali/images/Screenshot%20(315).png)
 
 ### Virtual Machine Snapshot
-![Kali Linux virtual machine snapshot]()
+![Kali Linux virtual machine snapshot](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/d8489bb0a472d632db8ac563c03b1af9e1d97b41/Virtualisation/kali/images/Screenshot%20(316).png)

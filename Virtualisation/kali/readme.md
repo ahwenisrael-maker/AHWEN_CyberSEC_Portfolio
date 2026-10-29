@@ -26,7 +26,7 @@ Establishing a dedicated environment for practising penetration testing and deve
 ![VirtualBox NAT network settings](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/d8489bb0a472d632db8ac563c03b1af9e1d97b41/Virtualisation/kali/images/Screenshot%20(315).png)
 
 ### Kali Linux VM Imported to VirtualBox
-![Kali Linux Imported to VirtualBox]()
+![Kali Linux Imported to VirtualBox](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/de264367edce1a5b03fdbc2304b60f324da449a1/Virtualisation/kali/images/Screenshot%20(311).png)
 
 ### Kali Linux Virtual Machine Running in VirtualBox
 ![Kali Linux running in VirtualBox](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/c612faf704de2c686007003587680d3b34869a00/Virtualisation/kali/images/Screenshot%20(309).png)

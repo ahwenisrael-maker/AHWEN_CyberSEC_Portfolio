@@ -20,3 +20,16 @@ I set up a Kali Linux virtual machine using Oracle VirtualBox as part of my cybe
 
 ## Purpose
 Established a dedicated environment for practising penetration testing and developing practical cybersecurity skills in a controlled lab.
+## Screenshots
+
+### Kali Linux Virtual Machine
+![Kali Linux running in VirtualBox](./images/virtualbox-kali.png)
+
+### IP Address Configuration
+![Kali Linux IP configuration](./images/kali-ip-config.png)
+
+### NAT Network Configuration
+![VirtualBox NAT network settings](./images/nat-network-config.png)
+
+### Virtual Machine Snapshot
+![Kali Linux virtual machine snapshot](./images/kali-snapshot.png)

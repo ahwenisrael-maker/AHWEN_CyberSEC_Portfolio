@@ -27,8 +27,8 @@ Establishing a dedicated environment for practising penetration testing and deve
 - Confirmed I used the right subnet in the VirtualBox Network settings.
 - Once sure I was correct, I arpinged the IP with `sudo arping -I eth0 -c 3 10.0.0.2` and discovered it was in use because it returned responses from a mac address `08:00:27:6e:5e:b4`
 - Checked the mac address of my network adapter and confirmed it wasn't from it, and then I found that it had a similar prefix to mine and on further investigation, I learnt that the prefix is common to virtualbox network adapters.
-- I checked my list of dhcp servers using `& "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" list dhcpservers` in my Windows(my host) Powershell
-- Discovered that my network was using `10.0.0.2` as DHCP server.
+- I checked my list of dhcp servers using `& "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" list dhcpservers` in Windows(my host) Powershell
+- Discovered that my network was using `10.0.0.2` as DHCPD ip.
 ## Solution to the problem
 - Changing the DHCPd IP to 10.0.0.254 using `& "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" dhcpserver modify --network="My NAT Network" --server-ip=10.0.0.254 --lower-ip=10.0.0.3 --upper-ip=10.0.0.253 --netmask=255.255.255.0 --enable` in Windows Powershell.
 - Reassigning the IP to Kali.

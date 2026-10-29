@@ -23,7 +23,7 @@ Established a dedicated environment for practising penetration testing and devel
 ## Screenshots
 
 ### Kali Linux Virtual Machine
-![Kali Linux running in VirtualBox](./images/Screenshot (309).png)
+![Kali Linux running in VirtualBox](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/c612faf704de2c686007003587680d3b34869a00/Virtualisation/kali/images/Screenshot%20(309).png)
 
 ### IP Address Configuration
 ![Kali Linux IP configuration](./images/Screenshot (313).png)

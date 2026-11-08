@@ -37,7 +37,6 @@ The Android x86 disk image (ISO) was downloaded from SourceForge. This image ser
 | VM Name | `Android9-Lab` |
 | Operating System Type | Linux |
 | Version | Other Linux (64-bit) |
-| Architecture | x86-64 |
 
 ### Step 3: Attaching the Installation Image
 
@@ -52,7 +51,7 @@ A new virtual hard disk was created to provide storage for the Android operating
 | Storage Configuration | Value |
 |---|---|
 | Virtual Disk Capacity | 10 GB |
-| Disk Type | Virtual Hard Disk |
+| Disk Type | Virtual Disk Image|
 
 The 10 GB virtual disk provides storage space for the Android x86 installation and its associated system files.
 
@@ -113,7 +112,7 @@ The installer prompted for bootloader installation.
 
 **GRUB (Grand Unified Bootloader)** was installed to enable the virtual machine to locate and load the Android x86 operating system during startup.
 
-The bootloader allows the VM to boot from the installed operating system on the virtual hard disk without relying on the installation ISO.
+The bootloader allows the VM to boot from the installed operating system on the virtual disk image without relying on the installation ISO.
 
 ### Step 10: Rebooting and Removing the Installation Media
 
@@ -133,19 +132,11 @@ In VirtualBox, the VM's network settings were opened and its network adapter was
 
 This allowed the Android virtual machine to communicate with external networks through VirtualBox's NAT Network infrastructure.
 
-### Step 12: Enabling Developer Options
+### Step 12: Static IP Configuration
 
 After reconnecting the virtual machine to the NAT Network, Android was started.
 
 The next objective was to configure a static IPv4 address rather than relying on automatic DHCP assignment.
-
-However, the network configuration interface initially restricted access to the required IP configuration options.
-
-To resolve this, Developer Options were enabled through the Android **About Phone** menu.
-
-Once Developer Options had been enabled, the necessary network configuration options became accessible.
-
-### Step 13: Configuring a Static IPv4 Address
 
 The Android network configuration was changed from **DHCP** to **Static**.
 
@@ -169,7 +160,7 @@ The following network parameters were manually assigned:
 
 ## 6. Internet Connectivity Testing
 
-### Step 14: Verifying Internet Connectivity
+### Step 13: Verifying Internet Connectivity
 After configuring the static IP address, network connectivity was tested using Android's built-in Terminal Emulator.
 
 The following commands were executed:
@@ -201,7 +192,7 @@ The successful ping responses demonstrated that the VM had Internet connectivity
 
 ## 7. Inter-VM Network Connectivity Testing
 
-### Step 15: Testing Communication Between Android x86 and Kali Linux
+### Step 14: Testing Communication Between Android x86 and Kali Linux
 
 After verifying external internet connectivity, an additional connectivity test was performed to establish communication between the Android x86 virtual machine and an existing Kali Linux virtual machine.
 

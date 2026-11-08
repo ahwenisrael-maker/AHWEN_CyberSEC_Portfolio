@@ -271,19 +271,31 @@ This section contains screenshots documenting the various stages of the Android 
 
 Displays the initial VirtualBox configuration, including memory allocation, video memory, graphics controller, and virtual disk creation.
 
-![Android VM Configuration](screenshots/android-vm-configuration.png)
-
+![Android VM Configuration](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/30e444273e7a49c2a9960e7fd1ab3546589e42ef/Virtualisation/android_x86%20lab/images/Screenshot%20(332).png)
+![Android VM Configuration](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/30e444273e7a49c2a9960e7fd1ab3546589e42ef/Virtualisation/android_x86%20lab/images/Screenshot%20(333).png)
+![Android VM Configuration](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/30e444273e7a49c2a9960e7fd1ab3546589e42ef/Virtualisation/android_x86%20lab/images/Screenshot%20(334).png)
 ### 9.2 Android x86 Installation
 
 Screenshots showing the Android x86 installation process, including the boot menu, disk partitioning, ext4 filesystem formatting, and GRUB bootloader installation.
 
-![Android x86 Installation](screenshots/android-installation.png)
+![Android x86 Installation](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/30e444273e7a49c2a9960e7fd1ab3546589e42ef/Virtualisation/android_x86%20lab/images/Screenshot%20(338).png) 
+![Android x86 Installation](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/30e444273e7a49c2a9960e7fd1ab3546589e42ef/Virtualisation/android_x86%20lab/images/Screenshot%20(339).png)
+![Android x86 Installation](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/30e444273e7a49c2a9960e7fd1ab3546589e42ef/Virtualisation/android_x86%20lab/images/Screenshot%20(340).png)
+![Android x86 Installation](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/30e444273e7a49c2a9960e7fd1ab3546589e42ef/Virtualisation/android_x86%20lab/images/Screenshot%20(341).png)
+![Android x86 Installation](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/30e444273e7a49c2a9960e7fd1ab3546589e42ef/Virtualisation/android_x86%20lab/images/Screenshot%20(342).png)
+![Android x86 Installation](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/30e444273e7a49c2a9960e7fd1ab3546589e42ef/Virtualisation/android_x86%20lab/images/Screenshot%20(344).png)
+![Android x86 Installation](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/30e444273e7a49c2a9960e7fd1ab3546589e42ef/Virtualisation/android_x86%20lab/images/Screenshot%20(345).png)
+![Android x86 Installation](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/30e444273e7a49c2a9960e7fd1ab3546589e42ef/Virtualisation/android_x86%20lab/images/Screenshot%20(349).png)
 
 ### 9.3 Successful Android Boot
 
 Evidence of Android 9 x86 successfully booting from the installed virtual hard disk.
 
-![Android 9 Desktop](screenshots/android-desktop.png)
+![Android 9 Desktop](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/30e444273e7a49c2a9960e7fd1ab3546589e42ef/Virtualisation/android_x86%20lab/images/Screenshot%20(349).png)
+
+![Android 9 Desktop](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/30e444273e7a49c2a9960e7fd1ab3546589e42ef/Virtualisation/android_x86%20lab/images/Screenshot%20(354).png)
+
+![Android 9 Desktop](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/30e444273e7a49c2a9960e7fd1ab3546589e42ef/Virtualisation/android_x86%20lab/images/Screenshot%20(355).png)
 
 ### 9.4 Static IP Configuration
 
@@ -296,13 +308,15 @@ The VM was configured with the following parameters:
 - Gateway: `10.0.0.1`
 - DNS Server: `8.8.8.8`
 
-![Android Static IP Configuration](screenshots/android-static-ip.png)
+![Android Static IP Configuration](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/30e444273e7a49c2a9960e7fd1ab3546589e42ef/Virtualisation/android_x86%20lab/images/Screenshot%20(362).png)
 
 ### 9.5 Internet Connectivity Verification
 
 Evidence of successful ICMP connectivity testing from Android x86 to Google's public DNS server (`8.8.8.8`).
 
-![Android Internet Connectivity Test](screenshots/android-internet-ping.png)
+![Android Internet Connectivity Test](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/30e444273e7a49c2a9960e7fd1ab3546589e42ef/Virtualisation/android_x86%20lab/images/Screenshot%20(358).png)
+
+![Android Internet Connectivity Test](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/30e444273e7a49c2a9960e7fd1ab3546589e42ef/Virtualisation/android_x86%20lab/images/Screenshot%20(359).png)
 
 ### 9.6 Inter-VM Connectivity Testing
 
@@ -310,10 +324,10 @@ Screenshots demonstrating successful bidirectional communication between Android
 
 **Android x86 to Kali Linux:**
 
-![Android to Kali Ping](screenshots/android-to-kali-ping.png)
+![Android to Kali Ping](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/30e444273e7a49c2a9960e7fd1ab3546589e42ef/Virtualisation/android_x86%20lab/images/Screenshot%20(360).png)
 
 **Kali Linux to Android x86:**
 
-![Kali to Android Ping](screenshots/kali-to-android-ping.png)
+![Kali to Android Ping](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/30e444273e7a49c2a9960e7fd1ab3546589e42ef/Virtualisation/android_x86%20lab/images/Screenshot%20(361).png)
 ## Author
 Ahwen Israel Lutor | NetworkWalks Batch B084E

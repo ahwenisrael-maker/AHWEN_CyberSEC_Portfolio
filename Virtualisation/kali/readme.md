@@ -30,7 +30,7 @@ Establishing a dedicated environment for practising penetration testing and deve
 - I checked my list of dhcp servers using `& "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" list dhcpservers` in Windows(my host) Powershell
 - Discovered that my network was using `10.0.0.2` as DHCPD ip.
 ## Solution to the problem
-- Changing the DHCPd IP to 10.0.0.254 using `& "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" dhcpserver modify --network="My NAT Network" --server-ip=10.0.0.254 --lower-ip=10.0.0.3 --upper-ip=10.0.0.253 --netmask=255.255.255.0 --enable` in Windows Powershell.
+- Changing the DHCPd IP to 10.0.0.254 using `& "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" dhcpserver modify --network="My NAT Network" --server-ip=10.0.0.254 --lower-ip=10.0.0.100 --upper-ip=10.0.0.200 --netmask=255.255.255.0 --enable` in Windows Powershell.
 - Reassigning the IP to Kali.
 
 ## Screenshots

@@ -34,7 +34,7 @@ The Android x86 disk image (ISO) was downloaded from SourceForge. This image ser
 
 | Configuration | Selected Value |
 |---|---|
-| VM Name | `Android9_Lab` |
+| VM Name | `Android9-Lab` |
 | Operating System Type | Linux |
 | Version | Other Linux (64-bit) |
 | Architecture | x86-64 |
@@ -154,7 +154,6 @@ The following network parameters were manually assigned:
 | Network Parameter | Assigned Value |
 |---|---|
 | IP Address | `10.0.0.9` |
-| CIDR Prefix | `/24` |
 | Subnet Mask | `255.255.255.0` |
 | Default Gateway | `10.0.0.1` |
 | Preferred DNS Server | `8.8.8.8` |
@@ -171,13 +170,12 @@ The following network parameters were manually assigned:
 ## 6. Internet Connectivity Testing
 
 ### Step 14: Verifying Internet Connectivity
-
 After configuring the static IP address, network connectivity was tested using Android's built-in Terminal Emulator.
 
-The following command was executed:
-
+The following commands were executed:
+#### First
 ```bash
-ping 8.8.8.8
+ping -c 4 8.8.8.8
 ```
 
 The command sends ICMP Echo Request packets to Google's public DNS server at `8.8.8.8`.
@@ -187,6 +185,19 @@ The terminal returned four successful responses, confirming that the Android vir
 **Test Result:** Successful — Four responses received.
 
 The successful ping responses demonstrated that the VM had external IP connectivity through the configured NAT Network.
+#### Then
+```bash
+ping -c 4 google.com
+```
+
+The command sends ICMP Echo Request packets to Google at `google.com`.
+
+The terminal returned four successful responses, confirming that the Android virtual machine could reach the website.
+
+**Test Result:** Successful — Four responses received.
+
+The successful ping responses demonstrated that the VM had Internet connectivity through the configured NAT Network.
+
 
 ## 7. Inter-VM Network Connectivity Testing
 
@@ -234,6 +245,7 @@ The Android x86 machine successfully returned ICMP Echo Replies to Kali Linux.
 | Connectivity Test | Result |
 |---|---|
 | Android x86 → Google DNS (`8.8.8.8`) | Successful |
+| Android x86 → Google.com (`google.com`) | Successful |
 | Android x86 → Kali Linux (`10.0.0.2`) | Successful |
 | Kali Linux → Android x86 (`10.0.0.9`) | Successful |
 | Bidirectional Inter-VM Communication | Verified |
@@ -243,9 +255,10 @@ The Android x86 machine successfully returned ICMP Echo Replies to Kali Linux.
 The successful tests established that:
 
 - Both virtual machines were reachable over the shared NAT Network.
+- The Android machine could access the internet
 - Both machines could communicate using their assigned static IPv4 addresses.
 - ICMP traffic was successfully exchanged in both directions.
-- The Android x86 virtual machine had external IP connectivity.
+- The Android x86 machine had external IP connectivity.
 
 These results confirmed successful network communication between the two virtual machines and verified the basic network configuration of the lab.
 

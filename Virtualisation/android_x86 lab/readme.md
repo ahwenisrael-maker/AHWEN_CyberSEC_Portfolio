@@ -274,6 +274,7 @@ Displays the initial VirtualBox configuration, including memory allocation, vide
 ![Android VM Configuration](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/30e444273e7a49c2a9960e7fd1ab3546589e42ef/Virtualisation/android_x86%20lab/images/Screenshot%20(332).png)
 ![Android VM Configuration](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/30e444273e7a49c2a9960e7fd1ab3546589e42ef/Virtualisation/android_x86%20lab/images/Screenshot%20(333).png)
 ![Android VM Configuration](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/30e444273e7a49c2a9960e7fd1ab3546589e42ef/Virtualisation/android_x86%20lab/images/Screenshot%20(334).png)
+![Android VM Setup Complete](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/30e444273e7a49c2a9960e7fd1ab3546589e42ef/Virtualisation/android_x86%20lab/images/Screenshot%20(331).png)
 ### 9.2 Android x86 Installation
 
 Screenshots showing the Android x86 installation process, including the boot menu, disk partitioning, ext4 filesystem formatting, and GRUB bootloader installation.
@@ -295,7 +296,6 @@ Evidence of Android 9 x86 successfully booting from the installed virtual hard d
 
 ![Android 9 Desktop](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/30e444273e7a49c2a9960e7fd1ab3546589e42ef/Virtualisation/android_x86%20lab/images/Screenshot%20(354).png)
 
-![Android 9 Desktop](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/30e444273e7a49c2a9960e7fd1ab3546589e42ef/Virtualisation/android_x86%20lab/images/Screenshot%20(355).png)
 
 ### 9.4 Static IP Configuration
 

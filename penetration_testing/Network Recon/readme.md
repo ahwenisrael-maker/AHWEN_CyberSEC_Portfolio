@@ -221,7 +221,9 @@ The following screenshots document the internal network discovery process, inclu
 **Zenmap Graphics**
 ![Zenmap Graphics](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/f643054e79c8261576c99d69b8e46aa57366c846/penetration_testing/Network%20Recon/Screenshots/Screenshot%20(9).png)
 
-![Windows Network Configuration](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/f643054e79c8261576c99d69b8e46aa57366c846/penetration_testing/Network%20Recon/Screenshots/Screenshot%20(12).png)
+**Windows VM IP configuration and MAC address**
+![Windows Mac address retrieval](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/f643054e79c8261576c99d69b8e46aa57366c846/penetration_testing/Network%20Recon/Screenshots/Screenshot%20(12).png)
+
 
 ## Skills Demonstrated
 

@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project documents a series of cybersecurity reconnaissance activities completed as part of an internship exercise. The activities involved gathering publicly available information about an assigned domain, identifying externally visible technologies and DNS records, discovering hosts within a controlled virtual network, and using OSINT techniques to identify publicly associated email addresses.
+This project documents a series of cybersecurity reconnaissance activities completed as part of the NetworkWalks Internship. The activities involved gathering publicly available information about an assigned domain, identifying externally visible technologies and DNS records, discovering hosts within a controlled virtual network, and using OSINT techniques to identify publicly associated email addresses.
 
 The exercises provided practical exposure to reconnaissance tools, network discovery, information gathering, technical analysis, and security reporting.
 

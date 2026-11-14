@@ -137,22 +137,22 @@ HTTP header inspection provided insight into the website's transport-related beh
 The following screenshots provide evidence of the external reconnaissance procedures and their corresponding results.
 
 **WHOIS**
-![WHOIS Results](screenshots/external-recon/whois.png)
+![WHOIS Results](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/f643054e79c8261576c99d69b8e46aa57366c846/penetration_testing/Network%20Recon/Screenshots/Screenshot%20(364).png)
 
 **WhatWeb**
-![WhatWeb Results](screenshots/external-recon/whatweb.png)
+![WhatWeb Results](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/f643054e79c8261576c99d69b8e46aa57366c846/penetration_testing/Network%20Recon/Screenshots/Screenshot%20(371).png)
 
 **nslookup**
-![nslookup Results](screenshots/external-recon/nslookup.png)
+![nslookup Results](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/f643054e79c8261576c99d69b8e46aa57366c846/penetration_testing/Network%20Recon/Screenshots/Screenshot%20(373).png)
 
 **DNSrecon**
-![DNSrecon Results](screenshots/external-recon/dnsrecon.png)
+![DNSrecon Results](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/f643054e79c8261576c99d69b8e46aa57366c846/penetration_testing/Network%20Recon/Screenshots/Screenshot%20(375).png)
 
 **WAFW00F**
-![WAFW00F Results](screenshots/external-recon/wafw00f.png)
+![WAFW00F Results](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/f643054e79c8261576c99d69b8e46aa57366c846/penetration_testing/Network%20Recon/Screenshots/Screenshot%20(374).png)
 
 **cURL**
-![cURL Results](screenshots/external-recon/curl.png)
+![cURL Results](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/f643054e79c8261576c99d69b8e46aa57366c846/penetration_testing/Network%20Recon/Screenshots/Screenshot%20(369).png)
 
 ### Skills Demonstrated
 
@@ -216,10 +216,12 @@ It also reinforced the importance of understanding scan scope: this activity was
 The following screenshots document the internal network discovery process, including the host-discovery results and Windows network configuration inspection.
 
 **Zenmap Host Discovery**
-![Zenmap Host Discovery](screenshots/internal-recon/zenmap.png)
+![Zenmap Host Discovery](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/f643054e79c8261576c99d69b8e46aa57366c846/penetration_testing/Network%20Recon/Screenshots/Screenshot%20(7).png)
 
-**Windows Network Configuration**
-![Windows Network Configuration](screenshots/internal-recon/ipconfig.png)
+**Zenmap Graphics**
+![Zenmap Graphics](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/f643054e79c8261576c99d69b8e46aa57366c846/penetration_testing/Network%20Recon/Screenshots/Screenshot%20(9).png)
+
+![Windows Network Configuration](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/f643054e79c8261576c99d69b8e46aa57366c846/penetration_testing/Network%20Recon/Screenshots/Screenshot%20(12).png)
 
 ## Skills Demonstrated
 
@@ -265,7 +267,7 @@ Publicly discoverable email addresses can provide useful intelligence for unders
 The following screenshots document the Maltego investigation, including the domain entity, selected transform, and resulting email intelligence.
 
 **Email Discovery Result**
-![Maltego Email Discovery](screenshots/osint/maltego-result.png)
+![Maltego Email Discovery](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/f643054e79c8261576c99d69b8e46aa57366c846/penetration_testing/Network%20Recon/Screenshots/Screenshot%20(382).png)
 
 ## Skills Demonstrated
 

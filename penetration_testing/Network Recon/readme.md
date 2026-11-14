@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project documents a series of cybersecurity reconnaissance activities completed as part of the NetworkWalks Internship. The activities involved gathering publicly available information about an assigned domain, identifying externally visible technologies and DNS records, discovering hosts within a controlled virtual network, and using OSINT techniques to identify publicly associated email addresses.
+This project documents a series of cybersecurity reconnaissance activities completed as part of the NetworkWalks Cybersecurity Internship. The activities involved gathering publicly available information about an assigned domain, identifying externally visible technologies and DNS records, discovering hosts within a controlled virtual network, and using OSINT techniques to identify publicly associated email addresses.
 
 The exercises provided practical exposure to reconnaissance tools, network discovery, information gathering, technical analysis, and security reporting.
 
@@ -264,12 +264,6 @@ Publicly discoverable email addresses can provide useful intelligence for unders
 
 The following screenshots document the Maltego investigation, including the domain entity, selected transform, and resulting email intelligence.
 
-**Domain Entity**
-![Maltego Domain Entity](screenshots/osint/maltego-domain.png)
-
-**Transform Selection**
-![Maltego Transform](screenshots/osint/maltego-transform.png)
-
 **Email Discovery Result**
 ![Maltego Email Discovery](screenshots/osint/maltego-result.png)
 
@@ -402,11 +396,5 @@ More importantly, the exercise strengthened my ability to interpret technical fi
 The experience has reinforced my interest in offensive security and provided a practical foundation for progressing into more advanced network security assessments and penetration testing.
 
 ---
-
-# 9. Project Evidence
-
-Screenshots documenting the installation, execution, and results of the reconnaissance activities are included within their respective sections of this README.
-
-They provide supporting evidence of the procedures performed and the observations documented throughout the project.
 # Author
 Ahwen Israel Lutor | Networkwalks Batch B084E

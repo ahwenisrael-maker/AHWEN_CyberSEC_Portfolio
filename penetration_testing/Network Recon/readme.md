@@ -152,7 +152,7 @@ The following screenshots provide evidence of the external reconnaissance proced
 ![WAFW00F Results](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/f643054e79c8261576c99d69b8e46aa57366c846/penetration_testing/Network%20Recon/Screenshots/Screenshot%20(374).png)
 
 **cURL**
-![cURL Results](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/f643054e79c8261576c99d69b8e46aa57366c846/penetration_testing/Network%20Recon/Screenshots/Screenshot%20(369).png)
+![cURL Results](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/27f87fa3cd124fdff3990c0d60ab0dc2e5482f53/penetration_testing/Network%20Recon/Screenshots/Screenshot%20(369).png)
 
 ### Skills Demonstrated
 

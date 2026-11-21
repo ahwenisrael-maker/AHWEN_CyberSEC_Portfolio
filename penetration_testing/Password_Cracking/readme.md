@@ -72,6 +72,7 @@ John successfully identified the hash format automatically and proceeded to test
 The dictionary attack successfully recovered the PDF password:
 
 `password1`
+This was confirmed using: `john --show hash1.txt --format=PDF`
 
 The recovered password was entered into the PDF reader, successfully granting access to the protected document.
 
@@ -80,22 +81,22 @@ The recovered password was entered into the PDF reader, successfully granting ac
 **PDF Hash Extraction**
 
 
-![Extracted PDF Hash](screenshots/pdf-hash-extraction.png)
+![Extracted PDF Hash](ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/penetration_testing/Password_Cracking/screenshots/Screenshot_2026-11-20_13_18_51.png)
 
 **John the Ripper Command and Execution**
 
 
-![John the Ripper Execution](screenshots/john-execution.png)
+![John the Ripper Execution](ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/penetration_testing/Password_Cracking/screenshots/Screenshot_2026-11-20_14_34_46.png)
 
 **Successful Password Recovery**
 
 
-![Recovered Password](screenshots/john-password-recovery.png)
+![Recovered Password](ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/penetration_testing/Password_Cracking/screenshots/Screenshot_2026-11-20_14_34_46.png)
 
 **PDF Successfully Opened**
 
 
-![PDF Password Verification](screenshots/pdf-password-verification.png)
+![PDF Password Verification](ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/penetration_testing/Password_Cracking/screenshots/Screenshot_2026-11-20_14_37_31.png)
 
 ---
 
@@ -122,16 +123,16 @@ The recovered password was entered into the PDF reader, successfully opening the
 **NetworkWalks Hash Calculator**
 
 
-![NetworkWalks Hash Calculator](screenshots/networkwalks-hash-calculator.png)
+![NetworkWalks Hash Calculator](ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/penetration_testing/Password_Cracking/screenshots/Screenshot_2026-11-21_05_09_57.png)
 
 **NetworkWalks Password Cracker**
 
-![NetworkWalks Password Cracker](screenshots/networkwalks-password-cracker.png)
+![NetworkWalks Password Cracker](ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/penetration_testing/Password_Cracking/screenshots/Screenshot_2026-11-21_05_03_43.png)
 
 **Successful PDF Access**
 
 
-![NetworkWalks PDF Verification](screenshots/networkwalks-pdf-verification.png)
+![NetworkWalks PDF Verification](ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/penetration_testing/Password_Cracking/screenshots/Screenshot_2026-11-20_14_37_31.png)
 
 ---
 

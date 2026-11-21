@@ -166,6 +166,6 @@ This exercise provided practical exposure to two approaches to PDF password reco
 
 It also strengthened familiarity with password-auditing tools and demonstrated the importance of understanding both command-line and web-based security utilities.
 
-*All activities were performed as part of Week 2 of NetworkWalks authorized cybersecurity internship exercise.*
+*All activities were performed as part of Week 3 of NetworkWalks authorized cybersecurity internship exercise.*
 # Author
 Ahwen Israel Lutor | NetworkWalks Batch B084E

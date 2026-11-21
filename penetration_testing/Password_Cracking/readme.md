@@ -79,25 +79,21 @@ The recovered password was entered into the PDF reader, successfully granting ac
 
 **PDF Hash Extraction**
 
-<!-- Insert screenshot here -->
 
 ![Extracted PDF Hash](screenshots/pdf-hash-extraction.png)
 
 **John the Ripper Command and Execution**
 
-<!-- Insert screenshot here -->
 
 ![John the Ripper Execution](screenshots/john-execution.png)
 
 **Successful Password Recovery**
 
-<!-- Insert screenshot here -->
 
 ![Recovered Password](screenshots/john-password-recovery.png)
 
 **PDF Successfully Opened**
 
-<!-- Insert screenshot here -->
 
 ![PDF Password Verification](screenshots/pdf-password-verification.png)
 
@@ -125,19 +121,15 @@ The recovered password was entered into the PDF reader, successfully opening the
 
 **NetworkWalks Hash Calculator**
 
-<!-- Insert screenshot here -->
 
 ![NetworkWalks Hash Calculator](screenshots/networkwalks-hash-calculator.png)
 
 **NetworkWalks Password Cracker**
 
-<!-- Insert screenshot here -->
-
 ![NetworkWalks Password Cracker](screenshots/networkwalks-password-cracker.png)
 
 **Successful PDF Access**
 
-<!-- Insert screenshot here -->
 
 ![NetworkWalks PDF Verification](screenshots/networkwalks-pdf-verification.png)
 

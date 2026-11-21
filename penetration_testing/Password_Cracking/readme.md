@@ -81,22 +81,22 @@ The recovered password was entered into the PDF reader, successfully granting ac
 **PDF Hash Extraction**
 
 
-![Extracted PDF Hash](ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/penetration_testing/Password_Cracking/screenshots/Screenshot_2026-11-20_13_18_51.png)
+![Extracted PDF Hash](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/a66101c31df04c104f311535b96b5de8f01bf94e/penetration_testing/Password_Cracking/screenshots/Screenshot_2026-11-20_13_18_51.png)
 
 **John the Ripper Command and Execution**
 
 
-![John the Ripper Execution](ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/penetration_testing/Password_Cracking/screenshots/Screenshot_2026-11-20_14_34_46.png)
+![John the Ripper Execution](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/a66101c31df04c104f311535b96b5de8f01bf94e/penetration_testing/Password_Cracking/screenshots/Screenshot_2026-11-20_14_34_46.png)
 
 **Successful Password Recovery**
 
 
-![Recovered Password](ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/penetration_testing/Password_Cracking/screenshots/Screenshot_2026-11-20_14_34_46.png)
+![Recovered Password](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/a66101c31df04c104f311535b96b5de8f01bf94e/penetration_testing/Password_Cracking/screenshots/Screenshot_2026-11-20_14_36_16.png)
 
 **PDF Successfully Opened**
 
 
-![PDF Password Verification](ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/penetration_testing/Password_Cracking/screenshots/Screenshot_2026-11-20_14_37_31.png)
+![PDF Password Verification](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/a66101c31df04c104f311535b96b5de8f01bf94e/penetration_testing/Password_Cracking/screenshots/Screenshot_2026-11-20_14_37_31.png)
 
 ---
 
@@ -123,16 +123,16 @@ The recovered password was entered into the PDF reader, successfully opening the
 **NetworkWalks Hash Calculator**
 
 
-![NetworkWalks Hash Calculator](ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/penetration_testing/Password_Cracking/screenshots/Screenshot_2026-11-21_05_09_57.png)
+![NetworkWalks Hash Calculator](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/a66101c31df04c104f311535b96b5de8f01bf94e/penetration_testing/Password_Cracking/screenshots/Screenshot_2026-11-21_05_09_57.png)
 
 **NetworkWalks Password Cracker**
 
-![NetworkWalks Password Cracker](ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/penetration_testing/Password_Cracking/screenshots/Screenshot_2026-11-21_05_03_43.png)
+![NetworkWalks Password Cracker](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/a66101c31df04c104f311535b96b5de8f01bf94e/penetration_testing/Password_Cracking/screenshots/Screenshot_2026-11-21_05_03_43.png)
 
 **Successful PDF Access**
 
 
-![NetworkWalks PDF Verification](ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/penetration_testing/Password_Cracking/screenshots/Screenshot_2026-11-20_14_37_31.png)
+![NetworkWalks PDF Verification](https://github.com/ahwenisrael-maker/AHWEN_CyberSEC_Portfolio/blob/a66101c31df04c104f311535b96b5de8f01bf94e/penetration_testing/Password_Cracking/screenshots/Screenshot_2026-11-20_14_37_31.png)
 
 ---
 

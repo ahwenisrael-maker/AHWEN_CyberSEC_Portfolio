@@ -72,7 +72,10 @@ John successfully identified the hash format automatically and proceeded to test
 The dictionary attack successfully recovered the PDF password:
 
 `password1`
-This was confirmed using: `john --show hash1.txt --format=PDF`
+
+This was confirmed using:
+
+`john --show hash1.txt --format=PDF`
 
 The recovered password was entered into the PDF reader, successfully granting access to the protected document.
 
